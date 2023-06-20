@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* .container {
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 11.9rem;
+  }
+
+  .navbar{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 6.9rem;
+  }
+
+  .grow-list{
+    flex-grow: 1;
+  padding-left: 62px;
+  } */
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 11.5rem;
+  margin-top: 3rem;
+ 
+  
+}
+
+
+/* ---------------------------- */
+         /* Header */
+/* ---------------------------- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* List */
+.navbar .grow-list {
+  flex-grow: 1;
+  padding-left: 7rem;
+}
+
+.navbar .list {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  position: relative;
+  top: 0;
+  left: 0;
+  justify-content: left;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.navbar .list .list-item {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: #000;
+  
+}
+.navbar .list .list-item:hover {
+    font-size: 2rem;
+    color: #5955b3;
+    text-decoration: underline solid black;
+   
+}
+
+/* Button */
+.navbar .btn {
+  padding: 1.4rem 2.8rem;
+  background-color: #5955b3;
+  border: none;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  align-items: center;
+  border-radius: 1.2rem;
+}
+
+.navbar .btn:hover{
+    background-color: #ffffff;
+    color: #5955b3;
+    border: 0.1rem solid #5955b3;
+    text-decoration: underline;
+}
+
+/* ---------------------------- */
+         /* Middel */
+/* ---------------------------- */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5.5rem;
+    text-transform: capitalize;
+}
+/* Main Heading Left side */
+.hero-heading{
+    font-size: 6.4rem;
+    color: #3c2f60;
+    font-weight: 600;
+    line-height: 7.4rem;
+}
+
+.hero-heading span{
+    color: #5955b3;
+}
+
+/* Paragraph left side */
+.hero-para{
+    font-size: 1.5rem;
+    color: #828282;
+    letter-spacing: 0.01em;
+    margin-top: 2.8rem;
+    line-height: 2.6rem;
+    font-weight: 400;
+}
+
+/* Button left side */
+.btn-large {
+    padding: 1.4rem 2.8rem;
+    background-color: #5955b3;
+    border: none;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    margin-top: 7.2rem;
+    border-radius: 1.2rem;
+  }
+  
+  .btn-large:hover{
+      background-color: #ffffff;
+      color: #5955b3;
+      border: 0.1rem solid #5955b3;
+      text-decoration: underline;
+      padding: 1.3rem 2.8rem;
+  }
+
+  /* Image right side */
+  .image img{
+    padding-right:92rem;
+  }
